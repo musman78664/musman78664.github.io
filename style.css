@@ -45,13 +45,22 @@ color: darkturquoise;
 color: darkturquoise;
 }
 
-footer{
-  text-align: center;
+<style>
+.footer {
   position: fixed;
-  padding-top; 15px;
-  bottom; 0;
-  left; 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(182, 191, 196);
+  color:darkblue;
+  text-align: center;
 }
+
+</style>
+
+<div class="footer">
+  <p>Footer</p>
+  </div>
 
 /* Here we define some styles that will ONLY be applied at screen sizes below 480 pixels */
 @media (max-width: 480px) {
