@@ -56,12 +56,6 @@ color: darkturquoise;
   text-align: center;
 }
 
-</style>
-
-<div class="footer">
-  <p>Footer</p>
-  </div>
-
 /* Here we define some styles that will ONLY be applied at screen sizes below 480 pixels */
 @media (max-width: 480px) {
 .my-nav {
